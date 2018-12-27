@@ -1,0 +1,101 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-image: linear-gradient(120deg,red,blue);
+}
+*{
+    margin: 0;    
+}
+.uibox
+{
+    height: 75%;
+    width: 65%;
+    background-color:white;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.picblock{
+    width: 50%;
+    height: 100%;
+    background-color: aqua;
+    float: left;
+    background-image: url(https://cdn.pixabay.com/photo/2018/09/12/12/14/photographer-3672010__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center; 
+}
+.user{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    float: left;
+    transform: skewx(-20deg);
+    position:absolute;
+    left:39%;
+    
+}
+.midpart{
+    width: 400px;
+    transform: skewx(20deg);
+    font-family: 'open sans',sans-serif;
+    margin:40% auto;
+    font-weight: lighter;
+    text-align: center;
+}
+.button{
+    width: 300px;
+    margin: auto;
+
+    box-sizing: border-box; 
+    height: 30px;
+}
+
+.but{
+    float: left;
+    width: 130px;
+    background-color: green;
+    padding:7px 0 7px 0;
+    background-image: linear-gradient(45deg,orangered,fuchsia);
+    margin-left: 15px;
+  
+}
+.but2{
+       background-image: linear-gradient(45deg,aqua,purple);
+}
+.but p{
+      font-size: 14px;
+    font-family: 'raleway',sans-serif;
+    color: white;
+    font-weight: bolder;
+}
+.gridblock{
+    width: 240px;
+    margin:10px auto;
+    overflow: auto;
+    
+}
+.grid{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 20px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+.g1{
+    background-color: #f7afc0;
+}
+.g2{
+    background-color: #f9bc01;
+}
+.g3{
+    background-color: #3da1c2;
+}
+.grid i{
+    font-size: 22px;
+    color:white;
+    line-height: 50px;
+}
