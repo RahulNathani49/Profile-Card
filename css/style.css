@@ -45,9 +45,12 @@ html,body{
     font-weight: lighter;
     text-align: center;
 }
+.midpart h1{
+    font-size: 2em;
+}
 .button{
     width: 300px;
-    margin: auto;
+    margin:20px auto;
 
     box-sizing: border-box; 
     height: 30px;
